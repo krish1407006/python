@@ -1,7 +1,5 @@
 # Match case statements
 
-from unittest import case
-
 
 x = int(input("Enter the value of X:"))
 
