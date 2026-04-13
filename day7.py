@@ -19,19 +19,19 @@ else:
 
 #elif statement example
 
-# num = int(input("enter the number:"))
+num = int(input("enter the number:"))
 
-# if (num>0):
-#  print("number is positive")
-# elif (num==0):
-#  print("number is zero")
-# else:
-#     print("number is negative")
+if (num>0):
+ print("number is positive")
+elif (num==0):
+ print("number is zero")
+else:
+    print("number is negative")
 
 
-    #nested if else statement example
+#nested if else statement example
 
- num1 = int(input("enter the number"))
+num1 = int(input("enter the number"))
 if(num1>0):
       print("number is positive")
 elif(num1<0):
