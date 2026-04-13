@@ -19,7 +19,6 @@ d = 11
 gmean(c, d)
 isgreater(c, d)
  
-  
 
 
 #all type of built in functiona are:
