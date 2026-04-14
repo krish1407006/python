@@ -12,3 +12,4 @@ print(type(tup), tup)
 tup2 = tup[0:4]
 print(tup2)
 
+print(tup[0 : 2 : 4])
