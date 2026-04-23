@@ -3,23 +3,26 @@
 
 print("welcome to KBC")
 
-list = [ "who is the pm of india" , "what is the largest country in the world" , "what is full form of CPU"]
-list2 = ["Modi" , "Russia" , "CPU"]
+questions =[ ["what is the capital of india ?","delhi" ,"punjab" ,"mumbai" ,"kolkata" , 1],
+             ["what is the capital of russia ?","moscow" ,"stpetersburg" ,"novosibirsk" ,"yekaterinburg" , 1],
+             ["what is the capital of china ?","beijing" ,"shanghai" ,"guangzhou" ,"shenzhen" , 1],
+             ["what is the capital of pakistan ?","islamabad" ,"karachi" ,"lahore" ,"faisalabad" , 1] ]
 
-score = 0
-for i in range(3):
-    print(list[i])
-    answer = input("enter your answer : ")
-    if answer == list2[i]:
-        print("your answer is correct")
-        score = score + 1000
+levels = [1000, 5000, 10000, 50000]
+
+for i in range(0 , len(questions)):
+    print("for Rs.",levels[i])
+    print(questions[i][0])
+    print("1.",questions[i][1])
+    print("2.",questions[i][2])
+    print("3.",questions[i][3])
+    print("4.",questions[i][4])
+
+    ans = int(input("enter the option : "))
+
+    if(ans == questions[i][5]):
+        print("congratulations you won Rs.",levels[i])
     else:
-        print("your answer is wrong")
-if score == 3000:
-    print("congratulation aap jeet gaye 3000 dhanrashi")
-elif score <= 1000:
-    print("sorry aap haar gaye")
-elif score == 2000:
-    print("congratulation aap jeet gaye 2000 dhanrashi")
+        print("sorry you lost")
+        break
     
-print("your final score is", score)
