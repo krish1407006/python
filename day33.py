@@ -1,24 +1,36 @@
-# Map , Filter , Reduce in Python
+# # Map , Filter , Reduce in Python
 
-# Map
+# # Map
 
-def square(x):
-    return x * x
+# def square(x):
+#     return x * x
 
-numbers = [1, 2, 3, 4, 5]
-squared_numbers = list(map(square, numbers))
-print(squared_numbers)  # Output: [1, 4, 9, 16, 25]
+# numbers = [1, 2, 3, 4, 5]
+# squared_numbers = list(map(square, numbers))
+# print(squared_numbers)  # Output: [1, 4, 9, 16, 25]
 
-squared_numbers = list(map(lambda x: x * x, numbers))
-print(squared_numbers)  # Output: [1, 4, 9, 16, 25]
+# squared_numbers = list(map(lambda x: x * x, numbers))
+# print(squared_numbers)  # Output: [1, 4, 9, 16, 25]
 
 
-# Filter
+# # Filter
 
-def is_even(a):
-    return a > 4
-even_numbers = list(filter(is_even, numbers))
-print(even_numbers) 
+# def is_even(a):
+#     return a > 4
+# even_numbers = list(filter(is_even, numbers))
+# print(even_numbers) 
 
-even_numbers = list(filter(lambda x: x > 4, numbers))
-print(even_numbers)
+# even_numbers = list(filter(lambda x: x > 4, numbers))
+# print(even_numbers)
+
+
+# # Reduce
+
+from functools import reduce
+
+def add(x, y):  
+ return x + y
+num = [1, 2, 3, 4, 5]
+
+result = reduce(lambda x, y: x + y, num )
+print(result)  
