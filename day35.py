@@ -32,3 +32,6 @@ b.age = 25
 b.occupation = "engineer"
 
 b.introduce()  # Calling the introduce method of the person class
+
+c = person()  # Creating another object of the person class
+c.introduce()  # Calling the introduce method of the person class with default values 
