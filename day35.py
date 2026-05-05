@@ -10,3 +10,25 @@
 # Example of a simple class and object in Python
 
 
+class person:
+    name = "krish"
+    age = 20
+    occupation = "student"
+
+    def introduce(self):
+        print(f"Hello, my name is {self.name}, I am {self.age} years old and I am a {self.occupation}.")
+
+a = person()  # Creating an object of the person class
+
+a.name = "krishan"
+a.age = 21
+a.occupation = "software developer"
+
+a.introduce()  # Calling the introduce method of the person class
+
+b = person()  # Creating another object of the person class
+b.name = "john"
+b.age = 25
+b.occupation = "engineer"
+
+b.introduce()  # Calling the introduce method of the person class
