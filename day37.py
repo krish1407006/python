@@ -1,4 +1,6 @@
 # Decorator in python
+# A decorator is a design pattern in Python that allows you to modify the behavior of a function or class method without changing its source code.
+#  It is a higher-order function that takes another function as an argument and extends its behavior.
 
 
 def decorator(func):
