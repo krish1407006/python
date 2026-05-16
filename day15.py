@@ -1,4 +1,6 @@
 # list method in python
+# sort() , insert() , append() , index() , extend() , copy()\
+
 
 l = [ 1 ,2 ,3 ,4 ,5 ,55, 44, 33 , 22 , 11]
 

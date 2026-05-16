@@ -1,4 +1,4 @@
-# finally clause in pyhton
+# finally clause in python
 
 def funct():
     try:

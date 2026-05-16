@@ -1,4 +1,7 @@
 # list in python
+# list is a collection of items which are ordered and changeable. It allows duplicate members.
+# list is defined by using square brackets [] and items are separated by commas.
+# list can contain any type of data and can be nested.
 
 list = [1, 2, 3 , 4 , "krish" , True , 7]
 print(list)
