@@ -3,7 +3,7 @@ import requests
 # BeautifulSoup is used to parse HTML content
 from bs4 import BeautifulSoup
 # URL of the webpage to scrape
-url = 'https://www.google.com/search?q=web+scraping+with+python'
+url = 'https://www.google.com'
 # Send a GET request to the URL
 response = requests.get(url)
 # Check if the request was successful
